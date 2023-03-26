@@ -7,6 +7,14 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
+    "paths": {
+      "githubUserWidget": [
+        "dist/github-user-widget"
+      ],
+      "githubUserWidget/*": [
+        "dist/github-user-widget/*"
+      ]
+    },
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
